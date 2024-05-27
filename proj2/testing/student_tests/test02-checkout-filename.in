@@ -1,0 +1,23 @@
+> init
+<<<
++ hello.txt helloV1.txt
+> add hello.txt
+<<<
+> commit "hello.txt version 1"
+<<<
++ hello.txt helloV2.txt
+> add hello.txt
+<<<
+> commit "hello.txt version 2"
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "add wug.txt"
+<<<
+# wipe hello.txt 's content
++ hello.txt emptyContent.txt
+> checkout -- hello.txt
+<<<
+= hello.txt helloV2.txt
+
