@@ -1,0 +1,16 @@
+# Basic initialization
++ wug.txt wug.txt
++ notwug.txt notwug.txt
+> init
+<<<
+> add wug.txt
+<<<
+> add notwug.txt
+<<<
+> commit "add wug.txt and notwug.txt"
+<<<
+> rm notwug.txt
+<<<
+> commit "remove notwug.txt"
+<<<
+* notwug.txt
